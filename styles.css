@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(25, 24, 24);
+    align-items: center;
+}
+
+
+
+.items {
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    margin: 1rem;
+    padding: 4rem 2rem;
+}
+
+.items h2, h3 {
+    text-transform: uppercase;
+    margin: 0.2rem 0;
+}
+
+.items p {
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.items h3 {
+    font-size: 0.9rem;
+}
+
+.container  {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+
+
+.items img {
+    height: 6rem;
+    border-radius: 50%;
+}
